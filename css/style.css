@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:300);
+
+* {
+    margin: 0px;
+}
+
+nav {
+    height: 60px;
+    background-color: #ffffff;
+}
+
+nav .left {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    background: url(/imgs/seanheuer.jpg) no-repeat;
+    background-size: 120px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+nav .left img {
+    float: left;
+    width:120px;
+    height:120px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+nav .left h1 {
+    margin: 25px 0px 0px 100px;
+    float: right;
+}
+
+nav ul {
+    margin: 30px 75px 0px 0px;
+    float: right;
+}
+
+nav ul li {
+    margin: 0px 25px;
+    display: inline;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: #333333;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    transition: color 1.0s ease; 
+    color: #55ef55;
+    text-decoration: none;
+}
+
+.sexy_line { 
+    margin: 25px 55px 125px 125px;
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(linear,0 0, 100% 0, from(white), to(white), color-stop(50%, black));
+}
+
+#main {
+    height: 1000px;
+    width: 100%
+    clear: both;
+    background: #ffffff;
+}
