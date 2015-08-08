@@ -1,6 +1,6 @@
-<?php 
+<?php
 
-include(dirname(__FILE__)."/assets/php/test.php"); 
+include(dirname(__FILE__)."/assets/php/test.php");
 
 ?>
 
@@ -10,7 +10,7 @@ include(dirname(__FILE__)."/assets/php/test.php");
     <body>
         <?php get_navbar(); ?>
         <div id="main">
-            <p>Hello, world!</p>
+            <p>Portfolio!</p>
         </div>
     </body>
 </html>
