@@ -2,8 +2,8 @@
 
 function get_navbar(){
     echo '        <nav>
+            <a id="index-link" href="index.php">Sean Heuer</a>
             <ul>
-                <li><a href="index.php">Sean Heuer</a></li>
                 <li><a href="/contact.php">Contact</a></li>
                 <li><a href="/about.php">About</a></li>
                 <li><a href="/testing_grounds.php">Testing Grounds</a></li>
