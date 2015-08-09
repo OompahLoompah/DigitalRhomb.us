@@ -12,5 +12,6 @@ include(dirname(__FILE__)."/assets/php/test.php");
         <div id="main">
             <p>About me!</p>
         </div>
+        <?php get_footer(); ?>
     </body>
 </html>

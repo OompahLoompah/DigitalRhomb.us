@@ -22,4 +22,10 @@ function get_header(){
     </head>';
 }
 
+function get_footer(){
+    echo '        <footer>
+            <p>The full source code for DigitalRhomb.us is available under the MIT License. Please visit the <a href="https://github.com/SeanHeuer/DigitalRhomb.us/blob/master/LICENSE">project page</a> for more information.</p>
+        </footer>';
+}
+
 ?>
