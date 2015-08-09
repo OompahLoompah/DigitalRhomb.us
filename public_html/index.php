@@ -5,12 +5,12 @@ include(dirname(__FILE__)."/assets/php/test.php");
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <?php get_header(); ?>
     <body>
         <?php get_navbar(); ?>
-        <div id="main">
-            <img src="assets/images/seanheuer.jpg" title="Sean Heuer">
+        <div id="hero">
+            <img title="Sean Heuer" alt="Sean Heuer" src="assets/images/seanheuer.jpg">
             <div class="info-box">
                 <ul>
                     <li><a href="https://github.com/SeanHeuer" class="octocat" title="GitHub Profile"></a></li>

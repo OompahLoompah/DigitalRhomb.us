@@ -1,20 +1,25 @@
 @import url(http://fonts.googleapis.com/css?family=Amatic+SC|Indie+Flower|Poiret+One);
 @import url(meyer.css);
 
+body p, body, a {
+    font-family: 'Indie Flower', cursive;
+}
+
 nav {
     background-color: #ffffff;
+    margin: 10px 0;
 }
 
 nav ul {
-    margin: 20px 200px 0 0;
+    margin-right: 200px;
     float: right;
 }
 
-nav ul li {
+nav li {
     float: right;
-    margin: 0 0 12px 0;
+    margin: 10px 0 0 0;
     display: inline;
-    font-family: 'Indie Flower', cursive;
+    max-height: 0;
     font-size: 25px;
 }
 
@@ -28,23 +33,18 @@ nav ul li a {
     font-family: 'Poiret One', cursive;
     font-size: 40px;
     text-decoration: none;
-    border-bottom: 2px solid;
-    color: #00dd55;
+    color: #0088ff;
     margin: 0 0 0 15%;
 }
 
-nav ul li a:hover {
-    color: #00dd55;
+nav ul li :hover {
+    color: #0088ff;
     transition: color 1.0s ease; 
-    -ms-transition: color 1.0s ease;
-    -moz-transition: color 1.0s ease;
-    -o-transition: color 1.0s ease;
     -webkit-transition: color 1.0s ease;
-    
     text-decoration: none;
 }
 
-#main {
+#hero {
     height: 600px;
     clear: both;
     background: #222222;
@@ -52,67 +52,61 @@ nav ul li a:hover {
     margin: 0 auto;
 }
 
-#main img {
+#hero img {
     margin: 55px 0 35px 0;
     border-radius: 145px;
-    -webkit-border-radius: 145px;
-    -ms-border-radius: 145px;
-    -moz-border-radius: 145px;
-    -o-border-radius: 145px; 
 }
 
-#main .info-box {
+#hero .info-box {
     width: 40%;
     margin: 0 auto;
     height: 300px;
     font-family: 'Poiret One', cursive;
     text-align: center;
-    color: #77ff00;
+    color: #eeeeee;
 }
 
-#main .info-box  h3 {
+#hero h3 {
     margin: 20px 0 0 0;
     font-size: 40px;
     font-weight: normal;
 }
 
-#main .info-box h5 {
+#hero h5 {
     margin: 5px 0 0 0;
     font-weight: normal;
     font-size: 25px;
 }
 
-#main .info-box p {
+#hero p {
     margin: 20px 0 0 0;
-    font-family: 'Indie Flower', cursive;
     font-size: 25px;
-    color: #ffffff;
+    color: #aaaaaa;
 }
 
-#main .info-box ul {
+#hero ul {
     margin: 0 auto;
 }
 
-#main .info-box ul li {
+#hero ul li {
     display: inline;
 }
 
-#main .info-box ul li .octocat {
+#hero .octocat, #hero .linkedin {
     height: 25px;
     width: 25px;
     padding: 35px;
-    margin: 0 50px 0 0;
-    background: url('/assets/images/GitHub-Mark-Light-64px.png') center top no-repeat;
     background-size: 60px;
 }
 
-#main .info-box ul li .linkedin {
-    height: 25px;
-    width: 25px;
-    padding: 30px;
-    margin: 0 0 0 50px;
+#hero .octocat {
+    margin: 0 20px 0 0;
+    background: url('/assets/images/GitHub-Mark-Light-64px.png') center top no-repeat;
+}
+
+#hero .linkedin {
+    margin: 0 0 0 20px;
     background: url('/assets/images/In-White-66px-R.png') center top no-repeat;
-    background-size: 60px;
 }
 
 footer {
@@ -130,7 +124,7 @@ footer p {
 }
 
 footer a {
-    color: #00dd55;
+    color: #0088ff;
     text-decoration: none;
 }
 
@@ -148,28 +142,24 @@ footer a {
     width: 30%;
     height: 250px;
     border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    box-shadow: 10px 10px 40px #333;
     margin: 100px 1.5%;
     float: left;
-    font-family: 'Indie Flower', cursive;
     font-size: 25px;
     text-align: center;
     background-color: #ffffff;
 }
 
-#info .panel h3 {
+
+#info h3 {
     margin: 10px 0 15px 0;
     font-family: 'Poiret One', cursive;
     font-size: 35px;
     font-weight: bold;
-    color: #00dd55;
-    border-bottom: 2px solid #00dd55;
+    color: #0088ff;
+    border-bottom: 2px solid #0088ff;
 }
 
-#info .panel p {
+#info p {
+    display: block;
     margin: 5px 30px;
 }
