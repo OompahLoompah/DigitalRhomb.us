@@ -1,0 +1,3 @@
+[submodule "sidr"]
+	path = public_html/assets/js/sidr
+	url = git://github.com/artberri/sidr.git

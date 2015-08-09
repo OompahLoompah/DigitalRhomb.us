@@ -13,6 +13,7 @@ nav {
 nav ul {
     margin-right: 200px;
     float: right;
+    display: inline;
 }
 
 nav li {
@@ -27,6 +28,32 @@ nav ul li a {
     padding: 15px;
     color: #111111;
     text-decoration: none;
+}
+
+.fa-bars {
+    margin-top: 6px;
+    float: right;
+    z-index: -1;
+    position: relative;
+    opacity: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .fa-bars {
+        margin-top: 6px;
+        float: right;
+        z-index: 0;
+        position: relative;
+        opacity: 100;
+    }
+    nav ul {
+        display: inline;
+        position: relative;
+        z-index: -1;
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
 }
 
 #index-link {
@@ -100,12 +127,12 @@ nav ul li :hover {
 }
 
 #hero .octocat {
-    margin: 0 20px 0 0;
+    margin: 10px 20px 0 0;
     background: url('/assets/images/GitHub-Mark-Light-64px.png') center top no-repeat;
 }
 
 #hero .linkedin {
-    margin: 0 0 0 20px;
+    margin: 10px 0 0 20px;
     background: url('/assets/images/In-White-66px-R.png') center top no-repeat;
 }
 
