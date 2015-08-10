@@ -1,16 +1,36 @@
 <?php
 
 function get_navbar(){
-    echo '        <nav>
-            <a id="index-link" href="index.php">Sean Heuer</a>
+    echo '        <i class="main-menu fa fa-2x fa-bars"></i>
+        <nav class="full-navbar">
+            <a id="left-align" href="index.php">Sean Heuer</a>
             <ul>
                 <li><a href="/contact.php">Contact</a></li>
                 <li><a href="/about.php">About</a></li>
                 <li><a href="/testing_grounds.php">Testing Grounds</a></li>
                 <li><a href="/portfolio.php">Portfolio</a></li>
             </ul>
-            <i class="fa fa-2x fa-bars"></i>
-        </nav>';
+        </nav>
+        <div id="sidr-menu">
+            <nav>
+                <a href="index.php">Sean Heuer</a>
+                <ul>
+                    <li><a href="/contact.php">Contact</a></li>
+                    <li><a href="/about.php">About</a></li>
+                    <li><a href="/testing_grounds.php">Testing Grounds</a></li>
+                    <li><a href="/portfolio.php">Portfolio</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <script>
+            $(\'.main-menu\').sidr({
+                name: \'sidr-menu\',
+                source: \'nav\',
+                side: \'right\'
+            });
+        </script>';
+
 }
 
 function get_header(){
@@ -21,6 +41,8 @@ function get_header(){
         <meta name="ketwords" content="resume, web developer, web development, sean heuer">
         <link rel="stylesheet" href="/assets/stylesheets/style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+        <script src="/assets/js/sidr/src/jquery.sidr.js"></script>
     </head>';
 }
 
