@@ -1,14 +1,50 @@
 @import url(http://fonts.googleapis.com/css?family=Dosis|Poiret+One);
-@import url(meyer.css);
 @import url(../js/sidr/dist/stylesheets/jquery.sidr.light.css);
+
+/*
+ *Reset CSS
+ */
+
+* {
+  box-sizing: inherit;
+}
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, 
+a, img, i, ul, li, footer, header, nav {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+}
+
+footer, header nav {
+        display: block;
+}
+body {
+        line-height: 1;
+        min-width: 550px;
+        min-height: 100%;
+        position: relative;
+}
 
 body p, body a {
     font-family: 'Dosis', sans-serif;
 }
 
-* {
-  box-sizing: inherit;
+html {
+  height: 100%;
+  box-sizing: border-box;
 }
+
+ul {
+        list-style: none;
+}
+
+/*
+ * Navbar CSS
+ */
 
 nav {
     background-color: #ffffff;
@@ -60,6 +96,10 @@ nav li :hover {
     -webkit-transition: color 0.5s ease;
     text-decoration: none;
 }
+
+/*
+ * First section CSS
+ */
 
 #hero {
     height: 600px;
@@ -119,6 +159,10 @@ nav li :hover {
     color: #0088ff;
 }
 
+/*
+ * Second section CSS
+ */
+
 #info {
     height: 500px;
     background-color: #ffffff;
@@ -160,6 +204,10 @@ nav li :hover {
 #info p {
     margin: 5px 30px;
 }
+
+/*
+ * Footer CSS... like, duhhhhh. 
+ */
 
 footer {
     height: 50px;
