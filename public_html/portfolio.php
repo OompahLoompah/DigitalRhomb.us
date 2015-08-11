@@ -1,6 +1,6 @@
 <?php
 
-include(dirname(__FILE__)."/assets/php/test.php");
+include(dirname(__FILE__)."/assets/php/common_html_getters.php");
 
 ?>
 
