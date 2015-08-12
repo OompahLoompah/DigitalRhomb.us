@@ -1,12 +1,14 @@
 <?php
 
 function get_navbar(){
-    echo '        <i class="menu-bars fa fa-2x fa-bars"></i>
+    echo '        <div id="nav-wrapper">
+        <i class="menu-bars fa fa-2x fa-bars"></i>
         <nav class="full-menu">
             <a id="left-align" href="index.php">Sean Heuer</a>
             <ul>
                 <li><a href="/contact.php">Contact</a></li>
                 <li><a href="/about.php">About</a></li>
+                <li><a href="/gitstats.php">GitHub Statistics</a></li>
                 <li><a href="/testing_grounds.php">Testing Grounds</a></li>
                 <li><a href="/portfolio.php">Portfolio</a></li>
             </ul>
@@ -16,6 +18,7 @@ function get_navbar(){
                 <li><a href="/index.php">Home</a></li>
                 <li><a href="/contact.php">Contact</a></li>
                 <li><a href="/about.php">About</a></li>
+                <li><a href="/gitstats.php">GitHub Statistics</a></li>
                 <li><a href="/testing_grounds.php">Testing Grounds</a></li>
                 <li><a href="/portfolio.php">Portfolio</a></li>
                 <li><a href="https://github.com/SeanHeuer" title="GitHub Profile">GitHub</a></li>
@@ -29,7 +32,8 @@ function get_navbar(){
                 source: \'#sidr-menu\',
                 side: \'right\'
             });
-        </script>';
+        </script>
+        </div>';
 
 }
 

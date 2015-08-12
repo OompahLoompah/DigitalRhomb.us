@@ -23,10 +23,10 @@ footer, header nav {
         display: block;
 }
 body {
+        height: 100%;
         line-height: 1;
         min-width: 550px;
         min-height: 100%;
-        position: relative;
 }
 
 body p, body a {
@@ -40,6 +40,11 @@ html {
 
 ul {
         list-style: none;
+}
+
+#wrapper {
+    position: relative;
+    min-height: 100%;
 }
 
 /*
@@ -65,6 +70,12 @@ nav li a {
     padding: 15px;
     color: #111111;
     text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+nav li a:hover {
+    color: #0088ff;
 }
 
 .menu-bars, .fa-bars:before {
@@ -88,13 +99,6 @@ nav li a {
     text-decoration: none;
     color: #0088ff;
     margin: 0 0 0 15%;
-}
-
-nav li :hover {
-    color: #0088ff;
-    transition: color 0.5s ease; 
-    -webkit-transition: color 0.5s ease;
-    text-decoration: none;
 }
 
 /*
@@ -151,11 +155,11 @@ nav li :hover {
 
 #hero a {
     color: #ffffff;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
 }
 
 #hero a:hover {
-    transition: color 0.2s ease;
-    -webkit-transition: color 0.2s ease;
     color: #0088ff;
 }
 
@@ -228,4 +232,32 @@ footer p {
 footer a {
     color: #0088ff;
     text-decoration: none;
+    transition: color 0.5s ease;
+    -webkit-transition: color 0.5s ease;
+}
+
+footer a:hover {
+    color: #99eeff;
+}
+
+.hover-test p{
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+-webkit-column-break-inside:avoid;
+-moz-column-break-inside:avoid;
+-o-column-break-inside:avoid;
+-ms-column-break-inside:avoid;
+column-break-inside:avoid;
+-webkit-backface-visibility:hidden;
+}
+
+.hover-test p:hover{
+-webkit-column-break-inside:avoid;
+-moz-column-break-inside:avoid;
+-o-column-break-inside:avoid;
+-ms-column-break-inside:avoid;
+column-break-inside:avoid;
+-webkit-backface-visibility:hidden;
+    transform: scale(2.0);
 }
