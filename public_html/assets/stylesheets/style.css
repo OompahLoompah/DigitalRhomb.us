@@ -9,8 +9,24 @@
   box-sizing: inherit;
 }
 
-html, body, div, h1, h2, h3, h4, h5, h6, p, 
-a, img, i, ul, li, footer, header, nav {
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p, 
+a,
+img,
+i,
+ul,
+li,
+footer,
+header,
+nav {
         margin: 0;
         padding: 0;
         border: 0;
@@ -19,7 +35,8 @@ a, img, i, ul, li, footer, header, nav {
         vertical-align: baseline;
 }
 
-footer, header nav {
+footer,
+header nav {
         display: block;
 }
 body {
@@ -29,7 +46,8 @@ body {
         min-height: 100%;
 }
 
-body p, body a {
+body p,
+body a {
     font-family: 'Dosis', sans-serif;
 }
 
@@ -50,10 +68,21 @@ ul {
 /*
  * Navbar CSS
  */
+nav a {
+    padding: 15px;
+    color: #111111;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+#sidr-menu {
+    display: none;
+}
 
 nav {
     background-color: #ffffff;
-    margin: 10px 0;
+    padding: 10px 0;
 }
 
 nav ul {
@@ -66,19 +95,12 @@ nav li {
     font-size: 25px;
 }
 
-nav li a {
-    padding: 15px;
-    color: #111111;
-    text-decoration: none;
-    transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-}
-
 nav li a:hover {
     color: #0088ff;
 }
 
-.menu-bars, .fa-bars:before {
+.menu-bars,
+.fa-bars:before {
     float: right;
     display: none;
 }
@@ -104,6 +126,13 @@ nav li a:hover {
 /*
  * First section CSS
  */
+.text-section {
+    width: 65%;
+    margin: 0 auto 0 auto;
+    padding-top: 150px;
+    font-size: 25px;
+    text-align: center;
+}
 
 #hero {
     height: 600px;
