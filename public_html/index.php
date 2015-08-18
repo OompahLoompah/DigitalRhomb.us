@@ -15,7 +15,7 @@ include(dirname(__FILE__)."/assets/php/common_html_getters.php");
                 <div id="hero">
                     <img title="Sean Heuer" alt="Sean Heuer" src="assets/images/seanheuer.jpg">
                     <ul>
-                        <li><a href="https://github.com/SeanHeuer" title="GitHub Profile" alt="Link to GitHub Profile"><i class="fa fa-4x fa-github"></i></a></li>
+                        <li><a href="https://github.com/OompahLoompah" title="GitHub Profile" alt="Link to GitHub Profile"><i class="fa fa-4x fa-github"></i></a></li>
                         <li><a href="https://www.linkedin.com/pub/sean-heuer/65/679/778" class="linkedin" title="LinkedIn Profile" alt="Link to LinkedIn Profile"><i class="fa fa-4x fa-linkedin"></i></a></li>
                     </ul>
                     <h3>Sean Heuer</h3>

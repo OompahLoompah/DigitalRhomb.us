@@ -6,11 +6,10 @@ function get_navbar(){
         <nav class="full-menu">
             <a id="left-align" href="index.php">Sean Heuer</a>
             <ul>
+                <li><a href="https://github.com/OompahLoompah" title="GitHub">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/pub/sean-heuer/65/679/778" title="LinkedIn">LinkedIn</a></li>
                 <li><a href="/contact.php">Contact</a></li>
                 <li><a href="/about.php">About</a></li>
-                <li><a href="/gitstats.php">GitHub Statistics</a></li>
-                <li><a href="/testing_grounds.php">Testing Grounds</a></li>
-                <li><a href="/portfolio.php">Portfolio</a></li>
             </ul>
         </nav>
         <div id="sidr-menu">
@@ -18,10 +17,7 @@ function get_navbar(){
                 <li><a href="/index.php">Home</a></li>
                 <li><a href="/contact.php">Contact</a></li>
                 <li><a href="/about.php">About</a></li>
-                <li><a href="/gitstats.php">GitHub Statistics</a></li>
-                <li><a href="/testing_grounds.php">Testing Grounds</a></li>
-                <li><a href="/portfolio.php">Portfolio</a></li>
-                <li><a href="https://github.com/SeanHeuer" title="GitHub Profile">GitHub</a></li>
+                <li><a href="https://github.com/OompahLoompah" title="GitHub Profile">GitHub</a></li>
                 <li><a href="https://www.linkedin.com/pub/sean-heuer/65/679/778" title="LinkedIn Profile">LinkedIn</a></li>
             </ul>
         </div>
@@ -52,7 +48,7 @@ function get_header(){
 
 function get_footer(){
     echo '        <footer>
-            <p>The full source code for DigitalRhomb.us is available under the MIT License. Please visit the <a href="https://github.com/SeanHeuer/DigitalRhomb.us/blob/master/LICENSE">project page</a> for more information.</p>
+            <p>The full source code for DigitalRhomb.us is available under the MIT License. Please visit the <a href="https://github.com/OompahLoompah/DigitalRhomb.us/blob/master/LICENSE">project page</a> for more information.</p>
         </footer>';
 }
 
